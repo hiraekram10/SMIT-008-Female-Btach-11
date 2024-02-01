@@ -1,0 +1,68 @@
+/* .para{
+    color: blue;
+}
+*{
+    background-color: rebeccapurple;
+}
+
+
+
+#green{
+    color: azure;
+}
+
+
+p > i{
+    color: green;
+/* }  */
+
+
+
+/* descendent selector */
+div li {
+    color: red;
+}
+
+
+/* adjacent sibling selector */
+
+/* h1+p{
+    color: blue;
+} */
+
+/* h1~p{
+    color: blue;
+} */
+
+/* #blue{
+    color: burlywood;
+}
+
+.para{
+    color: red;
+}
+
+p{
+    color: aqua;
+}
+p{
+    color: blueviolet !important;
+}
+ */
+.parent{
+    color: aquamarine;
+    border: 2px dotted grey;
+}
+
+.child1{
+    border: inherit;
+}
+
+p{
+    color: brown;
+}
+
+/* about page styling */
+.aboutpara{
+    color: rebeccapurple;
+}

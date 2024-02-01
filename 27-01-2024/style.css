@@ -1,0 +1,11 @@
+.first{
+    color:rgb(225, 127, 0,0.3) ;
+}
+.second{
+    /* color: rgb(181, 47, 6); */
+    color: #dcdcdc;
+    background-color: aqua;
+}
+i{
+    background-color: blueviolet;
+}
