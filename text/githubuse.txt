@@ -1,0 +1,16 @@
+git status  for checking
+
+
+git init  for initialize git
+git add index.html(filename)  ya git add .
+git commit -m "new file added"
+
+for login
+ git config --global user.name ""
+git config --global user.email ""
+
+git remote add origin link
+git push -u origin master
+
+
+
