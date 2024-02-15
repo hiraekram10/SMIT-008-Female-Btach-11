@@ -1,0 +1,64 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Protest+Riot&display=swap');
+
+
+.main-heading{
+   
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    /* text-decoration: blink; */
+    text-shadow: -1px -2px 1px #ff0000;
+  
+
+}
+.main-heading::first-letter{
+     font-size: 55px;
+}
+p{
+    background-color: aquamarine;
+    /* letter-spacing: 4px; */
+    /* word-spacing: 15px; */
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: oblique;
+    font-variation-settings:
+      "wdth" 100;
+      line-height: 50px;
+}
+ul a{
+    text-decoration:double;
+}
+ul a:visited{
+color: #ff0000;
+}
+.paraTwo{
+    text-indent: 203px;
+}
+.paraTwo::first-line{
+    background-color: #ff0000;
+}
+
+.btn{
+    background-color: blueviolet;
+}
+.btn:hover{
+    background-color: aliceblue;
+}
+.btn:active{
+    background-color: green;
+   
+}
+
+
+input:focus{
+background-color: blue;
+}
