@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .box{
+    width: 400px;
+    width: 50%;
+    height: 100%; ........... not fixed 
+    height: 50vh; 
+    background-color: aqua;
+}
+
+.box > img{
+    width: 25%;
+    height: 25vh;
+} */
+
+/* 
+.box{
+    width:100%;
+    
+  
+}
+
+.box > img{
+    
+   min-width: 450px;
+   max-width: 700px;
+   
+} */
+
+
+/* .box{
+    width: 300px;
+    background-color: aquamarine;
+    min-height: 100px;
+    max-height:300px;
+    overflow-y: scroll;
+    overflow-y: hidden;
+} */
+
+
+
+/* ...................border ................... */
+
+/* .box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-color: green blue rgb(133, 63, 63) red;
+    border-width: 2px 4px 7px 12px;
+    border-width:3px 10px ;
+    border-color: rgb(255, 151, 25);
+    border-style:inset;
+} */
+
+/* ...........................margin , padding ....................... */
+/* .box{
+    width: 150px;
+    height: 150px;
+    background-color: goldenrod;
+    border: 2px solid black;
+    margin: 5px 3px 9px 12px;
+    margin: 10px auto;  ............ center
+    padding: 5px;
+    text-align: center;
+} */
+
+
+/* h1{
+    background-color: aqua;
+} */
+
+/* ..................... Display ........................... */
+
+.nav{
+    background-color:pink ;
+    height: 40px;
+    
+}
+.nav > li{
+    display: inline-block;
+    /* background-color: aqua; */
+    width: 60px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+li:hover{
+    background-color: rgb(255, 148, 166);
+}
