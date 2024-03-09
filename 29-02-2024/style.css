@@ -1,0 +1,121 @@
+  .header{ /* background-color: blueviolet; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* flex-direction: column; */
+   /* height: 80vh; */
+   /* justify-content: space-around; */
+   /* align-items:flex-end;
+   /* justify-content: flex-end;
+   align-items: flex-end; */
+  
+  
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+.box{
+   background-color: rgb(252, 252, 252);
+  padding: 1em;
+  /* margin: 0.75em; */
+  /* border: 1px solid rgb(0, 0, 0); */
+  /* border-radius: 40px; */
+  text-align: center;
+  width: 120px;
+  height: 95px;
+  color: grey;
+  
+}
+.box p {
+ color: inherit;
+   font-size: 1.2em;
+}
+.box span {
+   color: inherit;
+}
+.one{
+   
+   border-bottom: 5px solid grey;
+  
+}
+.one:hover{
+   background-color: grey;
+   color: white;
+}
+.two{
+   border-bottom: 5px solid rgb(255, 49, 2);
+}
+.two:hover{
+   background-color:rgb(255, 49, 2) ;
+   color: white;
+}
+.three{
+   border-bottom: 5px solid rgb(2, 0, 128);
+}
+.three:hover{
+   background-color:rgb(2, 0, 128) ;
+   color: white;
+}
+.four{
+   border-bottom: 5px solid rgb(0, 156, 96);
+}
+.four:hover{
+   background-color:rgb(0, 156, 96) ;
+   color: white;
+}
+.five{
+   border-bottom: 5px solid rgb(154, 3, 106);
+}
+.five:hover{
+   background-color:rgb(154, 3, 106) ;
+   color: white;
+}
+.six{
+   border-bottom: 5px solid rgb(0, 83, 128);
+}
+.six:hover{
+   background-color: rgb(0, 83, 128);
+   color: white;
+}
+.seven{
+   border-bottom: 5px solid rgb(255, 196, 0);
+}
+.seven:hover{
+   background-color:rgb(255, 196, 0) ;
+   color: white;
+}
+
+.main{
+   margin-top: 10px;
+   /* background-color: pink; */
+   width: 100%;
+   height: 60vh;
+}
+.cards{
+   /* background-color: aqua; */
+   width:80%;
+   margin: 0 auto;
+   display: flex;
+}
+.card{
+   width: 600px;
+   background-color: grey;
+   border: 2px solid grey;
+   border-radius: 2%;
+   box-shadow: 2px 2px 2px rgb(170, 170, 170);
+   /* path generator */
+   /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
+   /* clip-path: polygon(50% 0%, 87% 5%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); */
+}
+.card:hover{
+   box-shadow: 4px 4px 2px rgb(150, 150, 150) ;
+   margin-top: 3px;
+}
+.card > img{
+   width: 100%;
+   border-radius: 3px;
+}
+.card > p {
+   padding: 10px;
+}
