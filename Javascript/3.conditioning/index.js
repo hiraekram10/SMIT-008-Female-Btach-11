@@ -1,16 +1,14 @@
 
 
-// var isMarried = false
-// 2 == 2  true   comparison operator
- // 2 === "2"  value, dataType
-//  5 != "5"  true
-// 5 !== "5" 
-// 10 < 9  false
-// 9> 3 true
-// 10 <= 11  true
-
-
-// 3>=1  true greater than or equal to
+// var isMarried = false    //naming convention boolean
+// 2 == 2  true   comparison operator    //Equality operator
+ // 2 === "2"  value, dataType        //Strict equality operator
+//  5 != "5"  flase                 // Inequality operator
+// 5 !== "5" true                  //Strict inequality operator.
+// 10 < 9  false    // Less than operator
+// 9> 3 true        // Greater than operator
+// 10 <= 11  true   //Less than or equal operator
+// 3>=1  true       //Greater than or equal operator
 
 
  /*
