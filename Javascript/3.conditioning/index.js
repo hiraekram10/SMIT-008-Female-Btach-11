@@ -1,7 +1,7 @@
 
 
 // var isMarried = false
-// 2 == 2  true   comparison operator
+// 23 == 23  true   comparison operator
  // 2 === "2"  value, dataType
 //  5 != "5"  true
 // 5 !== "5" 
