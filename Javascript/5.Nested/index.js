@@ -9,6 +9,12 @@ var "name" ="hira"
 */
 
 
+// var num =3
+// console.log(num);
+// num = 4  //reassign
+// console.log(num);
+
+
 
 // var name;   //declare
 // console.log(name);  //undefined
@@ -59,8 +65,30 @@ console.log("tm ameer ho bhaeee kahin or dhondo");
 // var students1 = "rida"
 
 
-var stuents =  [ "maha","rida","haya","emaan","ayesha", 5]
+var stuents =  [ "maha","rida","haya","emaan","ayesha"]
+console.log(stuents)
+// console.log(stuents.length)
+
+// console.log("index0 : ",stuents[0]);
+// console.log("index1 : ",stuents[1]);
+// console.log("index2 : ",stuents[2]);
+// console.log("index3 : ",stuents[3]);
+// console.log("index4 : ",stuents[4]);
+// console.log("index5 : ",stuents[5]);  // undefined
+
+
+stuents[3] = "saba"
+
+
 console.log(stuents);
+
+
+
+
+
+
+
+
 
 
 
