@@ -74,7 +74,7 @@ if(flag){
 
 
 //ROUND
-let a = Math.round(75.60);
+let a = Math.round(75.60)
 let b = Math.round(2.50);
 let c = Math.round(2.49);
 let d = Math.round(-2.60);
