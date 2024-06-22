@@ -50,7 +50,8 @@ console.log(numberAsString + 5);
 
 
 var num1 = 89.92347278346874
-console.log(num1.toFixed(4));
+console.log(num1.toFixed(4)); //89.92347
+console.log(num1.toFixed()); //90 roun off
  
 
 
