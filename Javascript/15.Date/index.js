@@ -14,7 +14,7 @@ var day = now.getDay()  // 0-6
 var monthNames = ["jan","feb","march","april","may","jun","july","aug"]
 var currentMonth= monthNames[now.getMonth()]
 
-
+ 
 
 var today = now.getDate()
 if(today === 1 || today === 21 || today ===31){
