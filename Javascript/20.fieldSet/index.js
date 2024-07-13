@@ -40,7 +40,7 @@
 
 
 
-//  keypress
+ keypress
 var list = document.getElementById('list')
 function getButton (event){
     // console.log(event.keyCode);
