@@ -1,4 +1,4 @@
-// var fName = "hira ekram  ali "
+// var fName = "hira ekram  ali"
 // var result = ''
 // for (var i = 0; i < fName.length; i++) {
 //     if (i == 0) {

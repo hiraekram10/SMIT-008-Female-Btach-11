@@ -16,7 +16,7 @@ var currentMonth= monthNames[now.getMonth()]
 
  
 
-var today = now.getDate()
+var today = 2
 if(today === 1 || today === 21 || today ===31){
     today+= 'st'
 }else if(today ===2 || today == 22 ){

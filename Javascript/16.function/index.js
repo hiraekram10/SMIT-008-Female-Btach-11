@@ -47,7 +47,7 @@
 // var firstName = prompt("enter your first name")
 // var lastName = prompt("enter your last name")
 
-// fullName(firstName,lastName)  //aurgument
+// fullName("hira","ekram")  //aurgument
 
 
 // var arr = []
