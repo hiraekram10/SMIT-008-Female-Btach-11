@@ -13,7 +13,7 @@ function percent (height,weight){
  var num = percent(4)
  console.log(num);//aurgument matter
 
-
+// jhsd
 
  function cal (a , b){
     return a +b / 2
