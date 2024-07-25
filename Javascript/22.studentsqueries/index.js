@@ -2,7 +2,7 @@ typeOf "Hello"
 
 var name = "Hello World"
 name.indexOf("o") //4
-
+//xkjhasj
 
 var name = "Hello World"
 name.replace("o","x")  //'Hellx World'
