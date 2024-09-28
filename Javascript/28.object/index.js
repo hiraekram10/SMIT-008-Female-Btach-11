@@ -75,7 +75,11 @@ var obj = {
     }
 }
 
-obj.getName()
+// obj.getName()
+
+
+console.log(this);
+
 
 
 
