@@ -46,18 +46,18 @@
 
 var  obj1 = {
     name:"hira",
-    rollNo :"a8753",
+    rollNo :"",
     details:{
         adress:"a5 yert karachi",
         phoneNo:8924759
     }
 }
 
-let {rollNo, name,details} = obj1
+let {rollNo = '787a', name,details} = obj1
 let {adress,phoneNo} = obj1.details
 
 
-console.log(adress);
+console.log(rollNo);
 
 
 
