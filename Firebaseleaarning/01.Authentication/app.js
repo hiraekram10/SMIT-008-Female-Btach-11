@@ -1,6 +1,9 @@
 import { auth,app,createUserWithEmailAndPassword,onAuthStateChanged,signInWithEmailAndPassword,
     sendEmailVerification,
-    signOut 
+    signOut,
+    GoogleAuthProvider,
+    provider,
+    signInWithPopup
 } from "./firebase.js";
 
 
@@ -57,6 +60,9 @@ let login = ()=>{
    
     const user = userCredential.user;
     console.log("login succesfully==",user);
+    setTimeout(()=>{
+      window.location.href = "./home.html"
+    },3000)
     
     
     
@@ -104,5 +110,30 @@ let sendEmail = ()=>{
 }
 
 verifyEmail.addEventListener("click",sendEmail)
+
+
+let googleLogin = document.querySelector("#googleLogin")
+let googleBtn = ()=>{
+  signInWithPopup(auth, provider)
+  .then((result) => {
+  
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+   
+    const user = result.user;
+    console.log(token);
+    console.log(user);
+    
+  }).catch((error) => {
+    // Handle Errors here.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+  console.log(errorMessage);
+  
+    const credential = GoogleAuthProvider.credentialFromError(error);
+   
+  });
+}
+googleLogin.addEventListener("click",googleBtn)
 
 

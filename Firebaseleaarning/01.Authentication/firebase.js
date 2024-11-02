@@ -5,8 +5,12 @@
     onAuthStateChanged,
     signInWithEmailAndPassword,
     signOut,
-    sendEmailVerification
+    sendEmailVerification,
+    GoogleAuthProvider,
+    signInWithPopup
  } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+ import { getFirestore,collection, addDoc,getDocs  } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+
  
 
   const firebaseConfig = {
@@ -21,6 +25,8 @@
   
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app)
+  const provider = new GoogleAuthProvider();
+  const db = getFirestore(app);
 
 
 
@@ -30,5 +36,12 @@
     onAuthStateChanged,
     signInWithEmailAndPassword,
     signOut,
-    sendEmailVerification
+    sendEmailVerification,
+    GoogleAuthProvider,
+    provider,
+    signInWithPopup,
+    db,
+    getFirestore,
+    collection, 
+    addDoc,getDocs 
 }
