@@ -9,7 +9,7 @@
     GoogleAuthProvider,
     signInWithPopup
  } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
- import { getFirestore,collection, addDoc,getDocs  } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+ import { getFirestore,collection, addDoc,getDocs,Timestamp,query,orderBy,limit } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
 
  
 
@@ -43,5 +43,8 @@
     db,
     getFirestore,
     collection, 
-    addDoc,getDocs 
+    addDoc,getDocs,
+    Timestamp,
+    query,
+    orderBy, limit
 }
