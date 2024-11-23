@@ -28,6 +28,8 @@ uploadBtn.addEventListener("click",async ()=>{
 
    }catch(err){
     console.log("error in uploading :", err);
+    console.log("hi");
+    
     
    }
    
