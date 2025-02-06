@@ -10,7 +10,7 @@ const Navbar = () => {
       <div>
         <ul className="flex gap-3">
           <li>
-            <a href="" className="text-lg text-[#5E3BEE]">Home</a>
+            <a href="" className="text-lg text-[#5E3BEE] font-[700] ">Home</a>
           </li>
           <li>
             <a href="" className="text-lg">About</a>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <button className="border-2 text-[#5E3BEE] border-[#5E3BEE] px-4 px-3"> Contact Me</button>
+        <button className="border-2 text-[#5E3BEE] border-[#5E3BEE]  px-3"> Contact Me</button>
       </div>
     </div>
   );
